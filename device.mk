@@ -22,6 +22,9 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2772
 TARGET_SCREEN_WIDTH := 1240
 
+# Bypass Charging
+BYPASS_CHARGE_SUPPORTED := true
+
 # Display
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display/displayconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947214369728643.xml
