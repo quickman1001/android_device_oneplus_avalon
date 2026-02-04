@@ -65,6 +65,9 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.oplus-richtap
 
+# ViPER4Android FX
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
