@@ -68,6 +68,8 @@ $(call soong_config_set_bool,OPLUS_LINEAGE_TOUCH_HAL,ENABLE_GM,true)
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.oplus-richtap
 
+$(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USES_OPLUS_AWINIC,true)
+
 # ViPER4Android FX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
