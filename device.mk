@@ -68,6 +68,8 @@ PRODUCT_PACKAGES += \
 # ViPER4Android FX
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+$(call soong_config_set_bool,OPLUS_LINEAGE_VIBRATOR_HAL,USES_OPLUS_AWINIC,true)
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
