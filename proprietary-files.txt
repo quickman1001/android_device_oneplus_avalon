@@ -1848,6 +1848,7 @@ odm/firmware/aw8697_haptic_170.bin
 odm/firmware/aw8697_haptic_170_soft.bin
 odm/firmware/aw8697_haptic_235.bin
 odm/firmware/aw8697_haptic_235_19161.bin
+odm/firmware/aw8697_rtp.bin
 
 # VPU firmware
 vendor/firmware/vpu20_2v.mbn
