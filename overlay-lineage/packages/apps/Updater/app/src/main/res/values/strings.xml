@@ -8,6 +8,6 @@
     Optional placeholders replaced at runtime:
       {device} - Device name
     -->
-    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/quickman1001/mist_ota/refs/heads/main/{device}.json</string>
-    <string name="changelog_url" translatable="false">https://raw.githubusercontent.com/quickman1001/mist_ota/refs/heads/main/changelogs/{device}.md</string>
+    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/quickman1001/mist_ota/refs/heads/main/{device}.json</string>
+    <string name="menu_changelog_url" translatable="false">https://raw.githubusercontent.com/quickman1001/mist_ota/refs/heads/main/changelogs/{device}.md</string>
 </resources>
